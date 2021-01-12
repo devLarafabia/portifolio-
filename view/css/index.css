@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Sansita Swashed', cursive;
+}
+
+.fundo{
+  background-image: url(../img/chris-ried-ieic5Tq8YMk-unsplash.jpg);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.painel{
+  background-color: white;
+  height: 50vh;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  border-radius: 3vh;
+}
+
+.conteudo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.perfil{
+  border-radius: 50%;
+  border: 3px solid #f28206;
+  margin-top: 2vh;
+}
+
+img{
+  transition-duration: 1s;
+  border-radius: 50%;
+  border: 3px solid #f28206;
+  padding: 2px;
+}
+
+img:hover{
+  transform:scale(1.3);
+  transition-duration: 0.5s;
+}
+
+h1{
+  transition-duration: 1s;
+  font-size: 8vh;
+}
+
+h1:hover{
+  transform:scale(1.4);
+  transition-duration: 1s;
+}
+
+.menu{
+  width: 18vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+  transition-duration: 1.5s;
+}
+a:hover{
+  color: #f28206 ;
+  transition-duration: 0.5s;
+}
+
+.contato{
+  display: flex;
+  justify-content: space-around ;
+  width: 25vh;
+}
+
+.quadrado{
+
+  background-color: white;
+  height: 100vh;
+  width: 70vw;
+  display: flex;
+  justify-content: center;
+  border-radius: 4vh;
+}
+
+.sobre{
+  height: 30vh;
+  width: 10vw;
+  background-color: palevioletred;
+}
+
+
+
